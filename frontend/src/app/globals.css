@@ -7,3 +7,16 @@
   color: CanvasText;
   background-color: Canvas;
 }
+
+table {
+  border-collapse: collapse;
+  & th, & td {
+    border: 1px solid white;
+    padding: 1rem 2rem;
+  }
+
+  & caption {
+    @apply text-2xl;
+    @apply pb-8
+  }
+}
